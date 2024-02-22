@@ -4,9 +4,9 @@ Un projet d'intérêt général pour la rénovation énergétique des logements.
 
 ## Engagements
 
-✅ Collaboration publique-privée
-✅ Production open source
-✅ Transparence budgétaire
+- ✅ Collaboration publique-privée
+- ✅ Production open source
+- ✅ Transparence budgétaire
 
 ## Objectifs
 
