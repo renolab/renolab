@@ -1,0 +1,45 @@
+﻿code;search;nom;famille;active
+72;Audit énergétique;Audit énergétique;Etudes énergétiques;1
+82;Commisionnement;Commisionnement;Etudes énergétiques;1
+77;Etude ACV;Etude ACV;Etudes énergétiques;1
+80;Etude bois énergie;Etude bois énergie;Etudes énergétiques;1
+81;Etude eclairage;Etude eclairage;Etudes énergétiques;1
+78;Etude enveloppe du bâtiment;Etude enveloppe du bâtiment;Etudes énergétiques;1
+76;Etude forage géothermique;Etude forage géothermique;Etudes énergétiques;1
+74;Etude solaire photovoltaïque;Etude solaire photovoltaïque;Etudes énergétiques;1
+73;Etude solaire thermique;Etude solaire thermique;Etudes énergétiques;1
+79;Etude système technique bâtiment;Etude système technique bâtiment;Etudes énergétiques;1
+75;Etude thermique reglementaire;Etude thermique reglementaire;Etudes énergétiques;1
+87;Chaudière bois;Chaudière bois;Installations d'énergies renouvelables;1
+86;Chauffage et/ou eau chaude solaire;Chauffage et/ou eau chaude solaire;Installations d'énergies renouvelables;1
+90;Chauffe-Eau Thermodynamique;Chauffe-Eau Thermodynamique;Installations d'énergies renouvelables;1
+100;Forage géothermique;Forage géothermique;Installations d'énergies renouvelables;1
+101;Panneaux solaires photovoltaïques;Panneaux solaires photovoltaïques;Installations d'énergies renouvelables;1
+89;Pompe à chaleur : chauffage;Pompe à chaleur : chauffage;Installations d'énergies renouvelables;1
+88;Poêle ou insert bois;Poêle ou insert bois;Installations d'énergies renouvelables;1
+83;Architecte;Architecte;Rénovation globale;1
+29;Projet complet de rénovation;Projet complet de rénovation;Rénovation globale;1
+85;Chaudière condensation ou micro-cogénération gaz ou fioul;Chaudière condensation ou micro-cogénération gaz ou fioul;Travaux d'efficacité énergétique;1
+94;Fenêtres de toit;Fenêtres de toit;Travaux d'efficacité énergétique;1
+93;Fenêtres, volets, portes donnant sur l'extérieur;Fenêtres, volets, portes donnant sur l'extérieur;Travaux d'efficacité énergétique;1
+98;Isolation des combles perdus;Isolation des combles perdus;Travaux d'efficacité énergétique;1
+96;Isolation des murs par l'extérieur;Isolation des murs par l'extérieur;Travaux d'efficacité énergétique;1
+99;Isolation des planchers bas;Isolation des planchers bas;Travaux d'efficacité énergétique;1
+97;Isolation des toitures terrasses ou des toitures par l'extérieur;Isolation des toitures terrasses ou des toitures par l'extérieur;Travaux d'efficacité énergétique;1
+95;Isolation par l'intérieur des murs ou rampants de toitures ou plafonds;Isolation par l'intérieur des murs ou rampants de toitures ou plafonds;Travaux d'efficacité énergétique;1
+91;Radiateurs électriques, dont régulation.;Radiateurs électriques, dont régulation;Travaux d'efficacité énergétique;1
+92;Ventilation mécanique;Ventilation mécanique;Travaux d'efficacité énergétique;1
+20;Chaudière condensation ou micro-cogénération gaz ou fioul 2020;Chaudière condensation ou micro-cogénération gaz ou fioul 2020;;0
+21;Fenêtres, volets, portes extérieures 2020;Fenêtres, volets, portes extérieures 2020;;0
+22;Isolation des murs et planchers bas 2020;Isolation des murs et planchers bas 2020;;0
+23;Isolation du toit 2020;Isolation du toit 2020;;0
+24;Equipements électriques hors ENR : chauffage, eau chaude, éclairage 2020;Equipements électriques hors ENR : chauffage, eau chaude, éclairage 2020;;0
+25;Panneaux photovoltaïques 2020;Panneaux photovoltaïques 2020;;0
+26;Chauffage et/ou eau chaude au bois 2020;Chauffage et/ou eau chaude au bois 2020;;0
+27;Chauffage et/ou eau chaude solaire 2020;Chauffage et/ou eau chaude solaire 2020;;0
+30;Pompe à chaleur et/ou Chauffe-eau thermodynamique 2020;Pompe à chaleur et/ou Chauffe-eau thermodynamique 2020;;0
+33;Ventilation 2020;Ventilation 2020;;0
+34;Forage géothermique 2020;Forage géothermique 2020;;0
+721;Audit énergétique Logement Collectif;Audit énergétique Logement Collectif;Etudes énergétiques;1
+722;Audit énergétique Maison Individuelle/Logement Collectif;Audit énergétique Maison Individuelle/Logement Collectif;Etudes énergétiques;1
+723;Audit énergétique Maison individuelle;Audit énergétique Maison individuelle;Etudes énergétiques;1
