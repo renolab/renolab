@@ -1,250 +1,64 @@
 [
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière biomasse à condensation",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière biomasse à condensation"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière gaz à condensation",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière gaz à condensation"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-bain",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-bain"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau solaire",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau solaire"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau thermodynamique",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau thermodynamique"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . émetteurs . émetteur électrique",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . émetteurs . émetteur électrique"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . émetteurs . plancher chauffant basse température",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . émetteurs . plancher chauffant basse température"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . émetteurs . radiateur basse température",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . émetteurs . radiateur basse température"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . insert bois",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . insert bois"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . poêle bois",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . poêle bois"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/air",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/air"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/eau",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/eau"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur eau/eau",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur eau/eau"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur hybride",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur hybride"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur sol/eau",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur sol/eau"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . régulation . dispositif d'affichage et d'interprétation des consommations d'énergie",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . régulation . dispositif affichage et interprétation des consommations énergie"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . régulation . régulation par sonde de température extérieure",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . régulation . régulation par sonde de température extérieure"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . régulation . robinet thermostatique",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . régulation . robinet thermostatique"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . régulation . système de comptage individuel d'énergie de chauffage",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . régulation . système de comptage individuel énergie de chauffage"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . régulation . système de régulation par programmation d'intermittence",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . régulation . système de régulation par programmation intermittence"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . abaissement de la température de retour vers un réseau de chaleur",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . abaissement de la température de retour vers un réseau de chaleur"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . conduit d'évacuation des produits de combustion",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . conduit évacuation des produits de combustion"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau de chauffage",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage un réseau de chauffage"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau d'eau chaude sanitaire",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage un réseau eau chaude sanitaire"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau de chauffage",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . isolation un réseau de chauffage"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau d'eau chaude sanitaire",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . isolation un réseau eau chaude sanitaire"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . optimiseur de relance",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . optimiseur de relance"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . récupérateur de chaleur à condensation",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . récupérateur de chaleur à condensation"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseau . système de variation électronique de vitesse sur une pompe",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseau . système de variation électronique de vitesse sur une pompe"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . réseaux de chaleur . raccordement à un réseau de chaleur",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . réseaux de chaleur . raccordement à un réseau de chaleur"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . système solaire combiné",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . système solaire combiné"
-  },
-  {
-    "option": "rénovation . chauffage et eau chaude sanitaire . système solaire hybride",
-    "valeur": "rénovation . chauffage et eau chaude sanitaire . système solaire hybride"
-  },
-  {
-    "option": "rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus",
-    "valeur": "rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus"
-  },
-  {
-    "option": "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur",
-    "valeur": "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par extérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur",
-    "valeur": "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par intérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur",
-    "valeur": "rénovation . isolation . isolation des combles et toitures . isolation une toiture terrasse par extérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des murs . isolation des murs par l'extérieur",
-    "valeur": "rénovation . isolation . isolation des murs . isolation des murs par extérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des murs . isolation des murs par l'intérieur",
-    "valeur": "rénovation . isolation . isolation des murs . isolation des murs par intérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur",
-    "valeur": "rénovation . isolation . isolation des planchers . isolation un plancher par extérieur"
-  },
-  {
-    "option": "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur",
-    "valeur": "rénovation . isolation . isolation des planchers . isolation un plancher par intérieur"
-  },
-  {
-    "option": "rénovation . isolation . ouvrants . fenêtre de toit isolante",
-    "valeur": "rénovation . isolation . ouvrants . fenêtre de toit isolante"
-  },
-  {
-    "option": "rénovation . isolation . ouvrants . fenêtre isolante",
-    "valeur": "rénovation . isolation . ouvrants . fenêtre isolante"
-  },
-  {
-    "option": "rénovation . isolation . ouvrants . porte isolante",
-    "valeur": "rénovation . isolation . ouvrants . porte isolante"
-  },
-  {
-    "option": "rénovation . isolation . ouvrants . porte-fenêtre isolante",
-    "valeur": "rénovation . isolation . ouvrants . porte-fenêtre isolante"
-  },
-  {
-    "option": "rénovation . isolation . protections solaires . fermeture isolante",
-    "valeur": "rénovation . isolation . protections solaires . fermeture isolante"
-  },
-  {
-    "option": "rénovation . isolation . protections solaires . protection solaire des façades",
-    "valeur": "rénovation . isolation . protections solaires . protection solaire des façades"
-  },
-  {
-    "option": "rénovation . isolation . protections solaires . protection solaire des ouvrants",
-    "valeur": "rénovation . isolation . protections solaires . protection solaire des ouvrants"
-  },
-  {
-    "option": "rénovation . isolation . protections solaires . protection solaire d'une toiture",
-    "valeur": "rénovation . isolation . protections solaires . protection solaire une toiture"
-  },
-  {
-    "option": "rénovation . refroidissement . climatiseur",
-    "valeur": "rénovation . refroidissement . climatiseur"
-  },
-  {
-    "option": "rénovation . refroidissement . raccordement à un réseau de froid",
-    "valeur": "rénovation . refroidissement . raccordement à un réseau de froid"
-  },
-  {
-    "option": "rénovation . rénovation globale",
-    "valeur": "rénovation . rénovation globale"
-  },
-  {
-    "option": "rénovation . services . audit énergétique",
-    "valeur": "rénovation . services . audit énergétique"
-  },
-  {
-    "option": "rénovation . services . etude de maîtrise d'oeuvre",
-    "valeur": "rénovation . services . etude de maîtrise oeuvre"
-  },
-  {
-    "option": "rénovation . services . mission d'accompagnement aux travaux",
-    "valeur": "rénovation . services . mission accompagnement aux travaux"
-  },
-  {
-    "option": "rénovation . services . mission d'assistance à maîtrise d'ouvrage",
-    "valeur": "rénovation . services . mission assistance à maîtrise ouvrage"
-  },
-  {
-    "option": "rénovation . services . service de suivi des consommations d'énergie",
-    "valeur": "rénovation . services . service de suivi des consommations énergie"
-  },
-  {
-    "option": "rénovation . ventilation . puit canadien",
-    "valeur": "rénovation . ventilation . puit canadien"
-  },
-  {
-    "option": "rénovation . ventilation . puit provençal",
-    "valeur": "rénovation . ventilation . puit provençal"
-  },
-  {
-    "option": "rénovation . ventilation . ventilation hybride",
-    "valeur": "rénovation . ventilation . ventilation hybride"
-  },
-  {
-    "option": "rénovation . ventilation . ventilation mécanique double flux",
-    "valeur": "rénovation . ventilation . ventilation mécanique double flux"
-  },
-  {
-    "option": "rénovation . ventilation . ventilation mécanique répartie",
-    "valeur": "rénovation . ventilation . ventilation mécanique répartie"
-  },
-  {
-    "option": "rénovation . ventilation . ventilation mécanique simple flux",
-    "valeur": "rénovation . ventilation . ventilation mécanique simple flux"
-  }
+  "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière biomasse à condensation",
+  "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière gaz à condensation",
+  "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-bain",
+  "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau solaire",
+  "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau thermodynamique",
+  "rénovation . chauffage et eau chaude sanitaire . émetteurs . émetteur électrique",
+  "rénovation . chauffage et eau chaude sanitaire . émetteurs . plancher chauffant basse température",
+  "rénovation . chauffage et eau chaude sanitaire . émetteurs . radiateur basse température",
+  "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . insert bois",
+  "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . poêle bois",
+  "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/air",
+  "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/eau",
+  "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur eau/eau",
+  "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur hybride",
+  "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur sol/eau",
+  "rénovation . chauffage et eau chaude sanitaire . régulation . dispositif d'affichage et d'interprétation des consommations d'énergie",
+  "rénovation . chauffage et eau chaude sanitaire . régulation . régulation par sonde de température extérieure",
+  "rénovation . chauffage et eau chaude sanitaire . régulation . robinet thermostatique",
+  "rénovation . chauffage et eau chaude sanitaire . régulation . système de comptage individuel d'énergie de chauffage",
+  "rénovation . chauffage et eau chaude sanitaire . régulation . système de régulation par programmation d'intermittence",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . abaissement de la température de retour vers un réseau de chaleur",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . conduit d'évacuation des produits de combustion",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau de chauffage",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau d'eau chaude sanitaire",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau de chauffage",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau d'eau chaude sanitaire",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . optimiseur de relance",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . récupérateur de chaleur à condensation",
+  "rénovation . chauffage et eau chaude sanitaire . réseau . système de variation électronique de vitesse sur une pompe",
+  "rénovation . chauffage et eau chaude sanitaire . réseaux de chaleur . raccordement à un réseau de chaleur",
+  "rénovation . chauffage et eau chaude sanitaire . système solaire combiné",
+  "rénovation . chauffage et eau chaude sanitaire . système solaire hybride",
+  "rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus",
+  "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur",
+  "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur",
+  "rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur",
+  "rénovation . isolation . isolation des murs . isolation des murs par l'extérieur",
+  "rénovation . isolation . isolation des murs . isolation des murs par l'intérieur",
+  "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur",
+  "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur",
+  "rénovation . isolation . ouvrants . fenêtre de toit isolante",
+  "rénovation . isolation . ouvrants . fenêtre isolante",
+  "rénovation . isolation . ouvrants . porte isolante",
+  "rénovation . isolation . ouvrants . porte-fenêtre isolante",
+  "rénovation . isolation . protections solaires . fermeture isolante",
+  "rénovation . isolation . protections solaires . protection solaire des façades",
+  "rénovation . isolation . protections solaires . protection solaire des ouvrants",
+  "rénovation . isolation . protections solaires . protection solaire d'une toiture",
+  "rénovation . refroidissement . climatiseur",
+  "rénovation . refroidissement . raccordement à un réseau de froid",
+  "rénovation . rénovation globale",
+  "rénovation . services . audit énergétique",
+  "rénovation . services . etude de maîtrise d'oeuvre",
+  "rénovation . services . mission d'accompagnement aux travaux",
+  "rénovation . services . mission d'assistance à maîtrise d'ouvrage",
+  "rénovation . services . service de suivi des consommations d'énergie",
+  "rénovation . ventilation . puit canadien",
+  "rénovation . ventilation . puit provençal",
+  "rénovation . ventilation . ventilation hybride",
+  "rénovation . ventilation . ventilation mécanique double flux",
+  "rénovation . ventilation . ventilation mécanique répartie",
+  "rénovation . ventilation . ventilation mécanique simple flux"
 ]

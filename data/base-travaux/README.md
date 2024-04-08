@@ -4,8 +4,6 @@ Une base de données des travaux d'économies d'énergie utilisée par l'ensembl
 
 A titre d'exemple, la valeur `isolation des murs par l'extérieur` est rattachée au namespace `rénovation . isolation . isolation des murs`.
 
-Afin de garantir l'interopérabilité de la Base Travaux avec les outils existant, notamment Publicodes, chaque entrée est divisée en deux champs `option` et `valeur`.
-
 ## Arbres des options (tree view)
 
 - rénovation

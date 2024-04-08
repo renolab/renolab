@@ -1,0 +1,429 @@
+$id: https://schemas.renolab.com/travaux
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Travaux
+type: object
+properties:
+  nature:
+    $ref: "#/$defs/nature des travaux"
+  adresse:
+    $ref: "#/$defs/adresse"
+  date de visite préalable:
+    title: Date de visite préalable
+    type: string
+    format: date
+  date d'engagement:
+    title: Date d'engagement
+    type: string
+    format: date
+  date de début:
+    title: Date de début des travaux
+    type: string
+    format: date
+  date d'achèvement:
+    title: Date d'achèvement
+    type: string
+    format: date
+  installateur:
+    title: Entreprise ayant assuré la réalisation des travaux
+    type: object
+    properties:
+      raison sociale:
+        title: Raison sociale
+        type: string
+      siret:
+        $ref: "#/$defs/siret"
+    required:
+      - raison sociale
+      - siret
+required:
+  - nature
+  - adresse
+  - date de visite préalable
+  - date de début
+  - date d'engagement
+  - date d'achèvement
+  - installateur
+discriminator:
+  propertyName: nature
+oneOf:
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des murs . isolation des murs par l'extérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des murs . isolation des murs par l'extérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des murs . isolation des murs par l'intérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des murs . isolation des murs par l'intérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur"
+  - type: object
+    properties:
+      nature:
+        const: "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur"
+    required:
+      - nature
+    allOf:
+      - $ref: "#/$defs/rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur"
+$defs:
+  adresse:
+    title: Adresse
+    description: Adresse au format BAN
+    type: object
+    properties:
+      ban id:
+        title: Identifiant de l'adresse dans la Base Adresse Nationale
+        type: [string, "null"]
+      numéro:
+        title: Numéro dans la voie
+        type: [string, "null"]
+      voie:
+        title: Nom de la voie ou du lieu-dit
+        type: string
+      complément:
+        title: Complément d'adresse
+        type: [string, "null"]
+      commune:
+        title: Commune
+        type: string
+      code postal:
+        title: Code postal
+        type: string
+        pattern: ^([02][1-9]|[12345678][0-9]|9[012345]|97[12346])[0-9]{3}$
+      code insee:
+        title: Code INSEE
+        type: string
+        pattern: ^([02][1-9]|2[AB]|[1345678][0-9]|9[012345]|97[12346])[0-9]{3}$
+    required:
+      - ban id
+      - numéro
+      - voie
+      - complément
+      - commune
+      - code postal
+      - code insee
+  siren:
+    title: Numéro de SIREN
+    type: string
+    pattern: ^[0-9]{9,9}$
+  siret:
+    title: Numéro de SIRET
+    type: string
+    pattern: ^[0-9]{14,14}$
+  nature des travaux:
+    title: Nature des travaux
+    type: string
+    enum:
+      - "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière biomasse à condensation"
+      - "rénovation . chauffage et eau chaude sanitaire . chaudières . chaudière gaz à condensation"
+      - "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-bain"
+      - "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau solaire"
+      - "rénovation . chauffage et eau chaude sanitaire . chauffe-eaux . chauffe-eau thermodynamique"
+      - "rénovation . chauffage et eau chaude sanitaire . émetteurs . émetteur électrique"
+      - "rénovation . chauffage et eau chaude sanitaire . émetteurs . plancher chauffant basse température"
+      - "rénovation . chauffage et eau chaude sanitaire . émetteurs . radiateur basse température"
+      - "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . insert bois"
+      - "rénovation . chauffage et eau chaude sanitaire . poêles et inserts . poêle bois"
+      - "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/air"
+      - "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur air/eau"
+      - "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur eau/eau"
+      - "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur hybride"
+      - "rénovation . chauffage et eau chaude sanitaire . pompes à chaleur . pompe à chaleur sol/eau"
+      - "rénovation . chauffage et eau chaude sanitaire . régulation . dispositif d'affichage et d'interprétation des consommations d'énergie"
+      - "rénovation . chauffage et eau chaude sanitaire . régulation . régulation par sonde de température extérieure"
+      - "rénovation . chauffage et eau chaude sanitaire . régulation . robinet thermostatique"
+      - "rénovation . chauffage et eau chaude sanitaire . régulation . système de comptage individuel d'énergie de chauffage"
+      - "rénovation . chauffage et eau chaude sanitaire . régulation . système de régulation par programmation d'intermittence"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . abaissement de la température de retour vers un réseau de chaleur"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . conduit d'évacuation des produits de combustion"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau de chauffage"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . désambouage d'un réseau d'eau chaude sanitaire"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau de chauffage"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . isolation d'un réseau d'eau chaude sanitaire"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . optimiseur de relance"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . récupérateur de chaleur à condensation"
+      - "rénovation . chauffage et eau chaude sanitaire . réseau . système de variation électronique de vitesse sur une pompe"
+      - "rénovation . chauffage et eau chaude sanitaire . réseaux de chaleur . raccordement à un réseau de chaleur"
+      - "rénovation . chauffage et eau chaude sanitaire . système solaire combiné"
+      - "rénovation . chauffage et eau chaude sanitaire . système solaire hybride"
+      - "rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus"
+      - "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur"
+      - "rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur"
+      - "rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur"
+      - "rénovation . isolation . isolation des murs . isolation des murs par l'extérieur"
+      - "rénovation . isolation . isolation des murs . isolation des murs par l'intérieur"
+      - "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur"
+      - "rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur"
+      - "rénovation . isolation . ouvrants . fenêtre de toit isolante"
+      - "rénovation . isolation . ouvrants . fenêtre isolante"
+      - "rénovation . isolation . ouvrants . porte isolante"
+      - "rénovation . isolation . ouvrants . porte-fenêtre isolante"
+      - "rénovation . isolation . protections solaires . fermeture isolante"
+      - "rénovation . isolation . protections solaires . protection solaire des façades"
+      - "rénovation . isolation . protections solaires . protection solaire des ouvrants"
+      - "rénovation . isolation . protections solaires . protection solaire d'une toiture"
+      - "rénovation . refroidissement . climatiseur"
+      - "rénovation . refroidissement . raccordement à un réseau de froid"
+      - "rénovation . ventilation . puit canadien"
+      - "rénovation . ventilation . puit provençal"
+      - "rénovation . ventilation . ventilation hybride"
+      - "rénovation . ventilation . ventilation mécanique double flux"
+      - "rénovation . ventilation . ventilation mécanique répartie"
+      - "rénovation . ventilation . ventilation mécanique simple flux"
+  rénovation . isolation . isolation des combles et toitures . isolation des planchers de combles perdus:
+    title: Isolation des planchers de combles perdus
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 7
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'extérieur:
+    title: Isolation des rampants de toiture par l'extérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 6
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des combles et toitures . isolation des rampants de toiture par l'intérieur:
+    title: Isolation des rampants de toiture par l'intérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 6
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des combles et toitures . isolation d'une toiture terrasse par l'extérieur:
+    title: Isolation d'une toiture terrasse par l'extérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 4.5
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des murs . isolation des murs par l'extérieur:
+    title: Isolation des murs par l'extérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 3.7
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+  rénovation . isolation . isolation des murs . isolation des murs par l'intérieur:
+    title: Isolation des murs par l'intérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 3.7
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des planchers . isolation d'un plancher par l'extérieur:
+    title: Isolation d'un plancher par l'extérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 3
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
+  rénovation . isolation . isolation des planchers . isolation d'un plancher par l'intérieur:
+    title: Isolation d'un plancher par l'intérieur
+    type: object
+    properties:
+      surface:
+        title: Surface d'isolant posé
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la surface résultant de la superposition des isolants
+        type: number
+        minimum: 0
+      épaisseur:
+        title: Épaisseur de l'isolant (mm)
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer l'épaisseur moyenne
+        type: number
+        minimum: 0
+      résistance thermique:
+        title: Résistance thermique
+        description: Dans le cas d'une pose superposée de plusieurs isolants, indiquer la résistance thermique globale
+        type: number
+        minimum: 3
+      pose d'un pare-vapeur:
+        title: Pose d'un pare-vapeur
+        type: boolean
+    required:
+      - surface
+      - épaisseur
+      - résistance thermique
+      - pose d'un pare-vapeur
