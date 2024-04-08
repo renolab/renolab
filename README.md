@@ -18,13 +18,13 @@ Un projet d'intérêt général pour l'émergence d'un service public de la rén
 
 🚀 [@renolab/audit](https://github.com/renolab/audit) - Un simulateur des performances énergétiques conventionnelles des logements pour évaluer l'impact d'un scénario de rénovation énergétique  
 
-🚀 [@renolab/audit](https://github.com/renolab/passeport-renovation) - Un service de pilotage et de suivi des parcours de rénovation performante par étape  
+🚀 [@renolab/passeport-renovation](https://github.com/renolab/passeport-renovation) - Un service de pilotage et de suivi des parcours de rénovation performante par étape  
 
-🚀 [@renolab/audit](https://github.com/renolab/financement) - Un Guichet unique du financement des travaux de rénovation énergétique  
+🚀 [@renolab/financement](https://github.com/renolab/financement) - Un Guichet unique du financement des travaux de rénovation énergétique  
 
-🚀 [@renolab/controle](https://github.com/renolab/financement) - Un Guichet unique pour harmoniser et centraliser les contrôles des travaux de rénovation énergétique  
+🚀 [@renolab/controle](https://github.com/renolab/controle) - Un Guichet unique pour harmoniser et centraliser les contrôles des travaux de rénovation énergétique  
 
-🚀 [@renolab/controle](https://github.com/renolab/annuaire) - Un annuaire public des professionnels de la rénovation énergétique
+🚀 [@renolab/annuaire](https://github.com/renolab/annuaire) - Un annuaire public des professionnels de la rénovation énergétique
 
 ## Contact et contribution
 
