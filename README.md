@@ -64,6 +64,10 @@ flowchart TB
 
 🚀 [@renolab/annuaire](https://github.com/renolab/annuaire) - Un annuaire public des professionnels de la rénovation énergétique
 
+## Open data
+
+🚀 [@renolab/base-travaux](https://github.com/renolab/base-travaux) - Un répertoire des travaux de rénovation énergétique
+
 ## Contact et contribution
 
 Les projets en cours sont ouverts aux contributions sur les dépôts dédiés.
